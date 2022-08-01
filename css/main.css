@@ -193,6 +193,34 @@ team{
  font-size: 16px; }
 
 
+/*Розділ генератор випадкових чисел*/
+.elements {
+    text-align: center;
+    color: #3AC1EF;
+}
+
+.random {
+    margin-top: 20px;
+    width: 275px;
+    height: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.range {
+    margin: 35px 25px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.generate {
+    margin-top: 20px;
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+}
 
 
  @import url('https://fonts.googleapis.com/css?family=Raleway');

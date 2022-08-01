@@ -265,9 +265,27 @@ name="email">
  </div>
 </div>
 
-<!--генератор випадкових чисел-->
-<div  class="contact-form" id="generator">
+
+<!--генератор випадкових чисел 1-->
+<div class="elements" id="generator">
         <h1 class="text-center">Генератор випадкових чисел</h1>
+         <h2>Введіть мінімальне число</h2>
+        <input type="text" class="range" id="min">
+        <h2>Введіть максимальне число</h2>
+        <input type="text" class="range" id="max">
+       
+        <br>
+        <input type="text" class="random" id="output">
+        <br>
+        <input type="button" class="generate" value="Згенерувати випдкове число" onclick="rand();">
+        
+
+        </div>
+
+<!--генератор випадкових чисел 2-->
+
+<div  class="contact-form" >
+        
         <form name="random">
             <input type="namber" placeholder="min число" name="min" id="minVal">
             <p></p>
@@ -289,6 +307,8 @@ name="email">
 <!--Підключення main.js для шапки-->
     <script type="text/javascript" src='js/main.js'></script>
 
+ <!--Підключення generat1.js-->  
+  <script type="text/javascript" src='js/generat1.js'></script>
   <!--Підключення generat.js-->  
   <script type="text/javascript" src='js/generat.js'></script>
 </body>
