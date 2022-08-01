@@ -31,7 +31,10 @@
         <a class="nav-link "  data-value="team" href="#">Наша команда</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link "  data-value="contact" href="#">Контакти</a>
+        <a class="nav-link "  data-value="contact" href="#">Відгуки</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link "  data-value="generator" href="#">Генератор</a>
       </li>
     </ul>
   </div>
@@ -207,28 +210,28 @@
    <div class="des">
      Павло Білецький
     </div>
-   <span class="text-muted">Manager</span>
+   <span class="text-muted">Директор</span>
   </div>
   <div class="col-lg-3 col-md-3 col-sm-12 item">
    <img align="center" src="images/lucik.jpg" class="img-fluid" alt="team">
    <div class="des">
       Андрій Луцик
     </div>
-   <span class="text-muted">S.enginner</span>
+   <span class="text-muted">Менеджер</span>
   </div>
   <div class="col-lg-3 col-md-3 col-sm-12 item">
    <img align="center" src="images/yacenko.jpg" class="img-fluid" alt="team">
    <div class="des">
      Ірина Яценко
      </div>
-   <span class="text-muted">Front End Developer</span>
+   <span class="text-muted">Розробник</span>
   </div>
   <div class="col-lg-3 col-md-3 col-sm-12 item">
    <img align="center" src="images/shvalnova.jpg" class="img-fluid" alt="team">
     <div class="des">
      Наталя Шальнова
     </div>
-   <span class="text-muted">Team Manger</span>
+   <span class="text-muted">Краєзнавець</span>
   </div>
 </div>
  </div>
@@ -262,6 +265,21 @@ name="email">
  </div>
 </div>
 
+<!--генератор випадкових чисел-->
+<div  class="contact-form" id="generator">
+        <h1 class="text-center">Генератор випадкових чисел</h1>
+        <form name="random">
+            <input type="namber" placeholder="min число" name="min" id="minVal">
+            <p></p>
+            <input type="namber" placeholder="max число" name="max" id="maxVal">
+            <p></p>
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="btn">Згенерувати</button></div>
+        </form>
+        <br>
+        <ul class="list-group" id="randomList"></ul>
+    
+</div>
 
 <!--Підключення Bootstrap CSS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -270,5 +288,8 @@ name="email">
 
 <!--Підключення main.js для шапки-->
     <script type="text/javascript" src='js/main.js'></script>
+
+  <!--Підключення generat.js-->  
+  <script type="text/javascript" src='js/generat.js'></script>
 </body>
 </html>
