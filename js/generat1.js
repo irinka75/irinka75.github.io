@@ -5,7 +5,7 @@ function rand()
 
         let output = document.getElementById("output");
 
-        let random = Math.floor(Math.random() * (max +1 - min) + min);
+        let random = Math.floor(Math.random() * (max + 1 - min) + min);
 
         output.value = random;
     }
