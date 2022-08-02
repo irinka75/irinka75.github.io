@@ -287,8 +287,8 @@ name="email">
   }
 
   function getRandomNumber(){
-    var start = document.getElementsByClassName('start')[0].value;
-    var end = document.getElementsByClassName('end')[0].value;
+    let start = document.getElementsByClassName('start')[0].value;
+    let end = document.getElementsByClassName('end')[0].value;
     document.getElementsByClassName('number')[0].innerHTML = 'Випадкове число: <span class="highlight">'+getRandomNumberBetween(parseInt(start),parseInt(end))+'</span>';
   }
 </script>
